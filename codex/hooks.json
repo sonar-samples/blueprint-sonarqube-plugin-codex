@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".codex/hooks/sonar-secrets/build-scripts/prompt-secrets.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "apply_patch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".codex/hooks/sonar-sqaa/build-scripts/posttool-sqaa.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
