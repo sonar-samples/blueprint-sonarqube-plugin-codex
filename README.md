@@ -1,4 +1,4 @@
-# Set up the SonarQube plugin for Codex CLI
+# Set up the SonarQube plugin for Codex
 
 ## TL;DR overview
 
