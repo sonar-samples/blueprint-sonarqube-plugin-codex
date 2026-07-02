@@ -1,6 +1,6 @@
 # Set up the SonarQube plugin for Codex
 
-> Last verified: May 2026
+> Last verified: June 2026
 
 ## TL;DR overview
 
