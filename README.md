@@ -1,5 +1,7 @@
 # Set up the SonarQube plugin for Codex
 
+> Last verified: May 2026
+
 ## TL;DR overview
 
 - The SonarQube plugin for Codex CLI brings quality gates, issue scanning, coverage, dependency risks, secrets scanning, Context Augmentation, and Agentic Analysis into Codex through auto-discovered `sonar-*` skills and the SonarQube MCP Server.  
